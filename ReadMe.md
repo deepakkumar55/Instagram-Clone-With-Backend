@@ -1,4 +1,4 @@
-<!-- 
+
 1. **Users:**
    - **user_id**: Unique identifier for each user.
    - **username**: User's chosen username.
@@ -74,42 +74,5 @@
     - **block_id**: Unique identifier for each blocked user entry.
     - **user_id**: Foreign key referencing the user who initiated the block.
     - **blocked_user_id**: Foreign key referencing the user who is blocked.
-    - **blocked_at**: Timestamp of when the block was initiated. -->
+    - **blocked_at**: Timestamp of when the block was initiated.
 
-What You Will Build
-This tutorial will help you to create the Instagram clone in React.js and Node.js and will cover the following topics:
-
-1. Authentication
-
-A way for users to log in and register
-Login the logged-in user to CometChat
-Add API call when a user registers so that the user is created in CometChat
-User superhero dummy users for this tutorial
-2. User Profiles
-
-A tab to display user details.
-Display all posts made by the user.
-3. Follow Requests
-
-Users can follow other users by simply clicking a ‘Follow’ button on any users profile
-4. Create New Post
-
-Functionality to upload new image/video as reel, story, or post
-5. Feed
-
-A tab where users can see content uploaded by other users
-Functionality to Like posts
-Ability to share posts in chat
-6. Reels
-
-Ability for users to upload videos
-Display these reels in the Feeds tab
-7. Notifications
-
-Notifications for new messages, likes and follow requests
-A tab where users can see all the latest notifications.
-8. Chat
-
-Ability to text all other users
-Voice & Video calling
-Reactions, Media sharing, and read receipts
